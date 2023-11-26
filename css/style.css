@@ -9,7 +9,21 @@
 *,
 *::after,
 *::before {
+  margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Button */
@@ -23,7 +37,25 @@
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+}
+
 /* Header */
+
+.header {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+}
+
+.menu-link {
+  color: var(--color-primary-dark);
+}
+
+.menu-link:hover {
+  color: var(--color-primary);
+}
 
 /* Main */
 
