@@ -1,0 +1,158 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Play";
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+:root {
+  --color-primary-light: #ffffff;
+  --color-primary: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-primary-light-dark: #4a4a4a;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
+
+.container {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.button {
+  padding: 16px 32px;
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  border-radius: 32px;
+  color: var(--color-primary-light);
+  font-size: 18px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+}
+
+.logo {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.04;
+  color: var(--color-primary);
+}
+
+.text-brand {
+  font-family: "Play";
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--color-primary);
+}
+
+.text-big {
+  font-size: 140px;
+  line-height: 0.8;
+}
+
+.header {
+  width: 100%;
+  padding: 32px 0;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header__logo {
+  font-size: 22px;
+}
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 240;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+.menu__link {
+  transition: 0.3s color ease;
+}
+.menu__link:hover {
+  color: var(--color-primary);
+}
+
+.social {
+  display: flex;
+  gap: 32px;
+}
+.social__icon {
+  fill: var(--color-primary-dark);
+  transition: 0.3s fill ease;
+}
+.social__icon:hover {
+  fill: var(--color-primary);
+}
+
+.hero-section {
+  padding: 124px 0 127px;
+  background-image: url("/images/woman-doc.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.hero-section__title {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.hero-section__button {
+  margin-bottom: 14px;
+}
+.hero-section__text {
+  max-width: 240px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--color-primary-light-dark);
+}/*# sourceMappingURL=main.css.map */

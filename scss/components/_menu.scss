@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+
+  &__link {
+    transition: 0.3s color ease;
+
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+}

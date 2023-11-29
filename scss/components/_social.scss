@@ -1,0 +1,13 @@
+.social {
+  display: flex;
+  gap: 32px;
+
+  &__icon {
+    fill: var(--color-primary-dark);
+    transition: 0.3s fill ease;
+
+    &:hover {
+      fill: var(--color-primary);
+    }
+  }
+}

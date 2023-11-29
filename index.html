@@ -4,53 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Zone</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a href="#" class="logo" lang="en">Beauty Zone</a>
-        <ul class="menu">
-          <li class="menu-item">
-            <a href="#" class="menu-link" target="_blank">Про нас</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link" target="_blank">Чому ми</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link" target="_blank">Наші процедури</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link" target="_blank">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <address>
-        <ul class="social">
-          <li class="social-item">
-            <a href="#" class="social-ink">
-              <!-- telefon -->
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="#" class="social-ink">
-              <!-- facebook -->
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="#" class="social-ink"></a>
-            <!-- instagram -->
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <nav class="header__navigation">
+          <a href="#" class="header__logo logo" lang="en">Beauty<br />Zone</a>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#" class="menu__link" target="_blank">Про нас</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link" target="_blank">Чому ми</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link" target="_blank">Наші процедури</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link" target="_blank">Контакти</a>
+            </li>
+          </ul>
+          <address>
+            <ul class="social">
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <svg class="social__icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__item">
+                  <svg class="social__icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__item">
+                  <svg class="social__icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </nav>
+      </div>
     </header>
     <main>
-      <section class="main-section">
-        <h1>Косметологічна клініка <span lang="en">Beauty Zone</span></h1>
-        <button class="button" type="button">Замовити дзвінок</button>
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-section__title">
+            Косметологічна клініка
+            <br />
+            <span class="text-brand text-big" lang="en">
+              Beauty
+              <br />
+              Zone
+            </span>
+          </h1>
+          <button class="button hero-section__button" type="button">
+            Замовити дзвінок
+          </button>
+          <p class="hero-section__text">
+            Запишись та отримай безкоштовну консультацію нашого косметолога
+          </p>
+        </div>
       </section>
-      <section>
+      <!-- <section>
         <h2>Перевтілюйтесь в <span lang="en">Beauty Zone!</span></h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
@@ -63,8 +86,8 @@
         </p>
         <img src="/images/woman-before.png" alt="Жінка до процедури" />
         <img src="/images/woman-after.png" alt="Жінка після процедури" />
-      </section>
-      <section>
+      </section> -->
+      <!-- <section>
         <h2>Чому люди <span>обирають нас</span></h2>
         <ul>
           <li>
@@ -92,8 +115,8 @@
             </article>
           </li>
         </ul>
-      </section>
-      <section>
+      </section> -->
+      <!-- <section>
         <h2>Наші <span>процедури</span></h2>
         <ul>
           <li>
@@ -112,8 +135,8 @@
             </article>
           </li>
         </ul>
-      </section>
-      <section>
+      </section> -->
+      <!-- <section>
         <h2>Як нас <span>знайти</span></h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9323900545924!2d30.515600376940988!3d50.44235998794572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1700916768168!5m2!1suk!2sua"
@@ -123,23 +146,23 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-      </section>
+      </section> -->
     </main>
-    <footer>
+    <!-- <footer>
       <nav>
         <a href="#" class="logo" lang="en">Beauty Zone</a>
         <ul class="menu">
-          <li class="menu-item">
-            <a href="#" class="menu-link" target="_blank">Про нас</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link" target="_blank">Про нас</a>
           </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link" target="_blank">Чому ми</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link" target="_blank">Чому ми</a>
           </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link" target="_blank">Наші процедури</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link" target="_blank">Наші процедури</a>
           </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link" target="_blank">Контакти</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link" target="_blank">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -161,7 +184,7 @@
           <p>© 2022 Дані захищені</p>
         </ul>
       </address>
-    </footer>
+    </footer> -->
     <div class="modal"></div>
   </body>
 </html>

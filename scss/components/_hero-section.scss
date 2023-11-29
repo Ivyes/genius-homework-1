@@ -1,0 +1,26 @@
+.hero-section {
+  padding: 124px 0 127px;
+  background-image: url("/images/woman-doc.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+
+  &__title {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &__button {
+    margin-bottom: 14px;
+  }
+
+  &__text {
+    max-width: 240px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--color-primary-light-dark);
+  }
+}
