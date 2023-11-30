@@ -137,8 +137,14 @@ a {
   padding: 124px 0 127px;
   background-image: url("/images/woman-doc.png");
   background-repeat: no-repeat;
+  background-size: contain;
   background-position-x: right;
   background-position-y: center;
+}
+@media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: url("/images/woman-doc@2x.png");
+  }
 }
 .hero-section__title {
   margin-bottom: 40px;
