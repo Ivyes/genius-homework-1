@@ -1,0 +1,20 @@
+.stars-decor {
+  &::after,
+  &::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+  }
+  &::after {
+    background-color: red;
+    top: 270px;
+    right: -10px;
+  }
+  &::before {
+    background-color: green;
+    top: 52px;
+    right: -60px;
+  }
+}
