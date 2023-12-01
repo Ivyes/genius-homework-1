@@ -90,6 +90,17 @@ a {
   line-height: 0.8;
 }
 
+.text-tittle {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text--weight {
+  font-weight: 600;
+}
+
 .header {
   width: 100%;
   padding: 32px 0;
@@ -161,4 +172,39 @@ a {
   font-size: 12px;
   line-height: 1.5;
   color: var(--color-primary-light-dark);
+}
+
+.reincarnate-section__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 28px;
+}
+.reincarnate-section__block-text {
+  max-width: 709px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding-top: 40px;
+}
+.reincarnate-section__title {
+  max-width: 530px;
+  width: 100%;
+}
+.reincarnate-section__text {
+  font-size: 22px;
+  line-height: 1.72;
+}
+.reincarnate-section__block-img {
+  max-width: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.reincarnate-section__img {
+  max-width: 335px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */

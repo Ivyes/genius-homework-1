@@ -1,0 +1,46 @@
+.reincarnate-section {
+  &__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 28px;
+  }
+
+  &__block-text {
+    max-width: 709px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding-top: 40px;
+  }
+
+  &__title {
+    max-width: 530px;
+    width: 100%;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 1.72;
+  }
+
+  &__block-img {
+    max-width: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  &__img {
+    max-width: 335px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  &__img--left {
+  }
+  &__img--right {
+  }
+}
